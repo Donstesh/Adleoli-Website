@@ -1876,8 +1876,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 14px 0;
-  position: fixed;
+  padding: 9px 0;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
@@ -1888,7 +1888,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 960px) {
   #header {
-    height: 76px;
+    height: 60px;
   }
   #header hr {
     display: none;
@@ -1969,7 +1969,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 34px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -2333,7 +2333,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background-color: #007bb4;
+  background-color: #01608b;
 }
 
 @media (max-width: 767.98px) {
