@@ -1913,7 +1913,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 414px) {
   .header-top .menu-top-middle {
-    justify-content: left !important;
+    justify-content: center !important;
+    padding-bottom: 60px;
   }
 }
 
@@ -1990,10 +1991,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header #logo h1 {
-    font-size: 28px;
+    font-size: 18px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 20px;
   }
 }
 
@@ -2381,6 +2382,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 414px) {
   .banner-content h1 {
     font-size: 38px;
+    padding-top: 30px;
   }
 }
 
