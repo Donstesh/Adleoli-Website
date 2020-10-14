@@ -1914,7 +1914,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 414px) {
   .header-top .menu-top-middle {
     justify-content: center !important;
-    padding-bottom: 60px;
+    background-color: #fff;
   }
 }
 
