@@ -1908,6 +1908,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 960px) {
   .header-top .menu-top-left, .header-top .menu-top-right {
     display: none;
+    background-color: #fff;
   }
 }
 
@@ -1916,6 +1917,13 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center !important;
     background-color: #fff;
   }
+}
+  @media (max-width: 768px) {
+    .header-top .menu-top-middle {
+      justify-content: center !important;
+      background-color: #fff;
+      padding-bottom: -80px;
+    }
 }
 
 .header-top .menu-top-right {
@@ -1992,6 +2000,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 18px;
+    background-color: #fff;
   }
   #header #logo img {
     max-height: 20px;
@@ -2066,6 +2075,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #nav-menu-container {
     display: none;
+    
   }
 }
 
